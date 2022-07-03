@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsS3Connect.Core", "AwsS3Connect.Core\AwsS3Connect.Core.csproj", "{15712B0E-FC9B-41C2-B805-E598F235F242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsS3Connect.Domain", "AwsS3Connect.Domain\AwsS3Connect.Domain.csproj", "{C12C82C7-29DB-4ED4-BC3A-6977F705C860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsS3Connect.Infra", "AwsS3Connect.Infra\AwsS3Connect.Infra.csproj", "{B35C45B1-5899-4CEF-B402-5E9CB931B408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsS3Connect.Api", "AwsS3Connect.Api\AwsS3Connect.Api.csproj", "{BF0373EC-1E6A-406E-9336-B178CF9A5608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15712B0E-FC9B-41C2-B805-E598F235F242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15712B0E-FC9B-41C2-B805-E598F235F242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15712B0E-FC9B-41C2-B805-E598F235F242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15712B0E-FC9B-41C2-B805-E598F235F242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C82C7-29DB-4ED4-BC3A-6977F705C860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12C82C7-29DB-4ED4-BC3A-6977F705C860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12C82C7-29DB-4ED4-BC3A-6977F705C860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12C82C7-29DB-4ED4-BC3A-6977F705C860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35C45B1-5899-4CEF-B402-5E9CB931B408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35C45B1-5899-4CEF-B402-5E9CB931B408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35C45B1-5899-4CEF-B402-5E9CB931B408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35C45B1-5899-4CEF-B402-5E9CB931B408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0373EC-1E6A-406E-9336-B178CF9A5608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0373EC-1E6A-406E-9336-B178CF9A5608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0373EC-1E6A-406E-9336-B178CF9A5608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0373EC-1E6A-406E-9336-B178CF9A5608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F6A8B66-624E-494C-A4E6-80ABED8340F3}
+	EndGlobalSection
+EndGlobal

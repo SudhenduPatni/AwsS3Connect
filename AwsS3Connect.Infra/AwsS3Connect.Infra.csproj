@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.9.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AwsS3Connect.Core\AwsS3Connect.Core.csproj" />
+  </ItemGroup>
+
+</Project>
